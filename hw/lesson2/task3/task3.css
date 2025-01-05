@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+.main-box {
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: #4F6F51;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+
+.months-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.months-box > div {
+    background-color: #D2E3C9;
+
+    width: 14vw;
+    height: 19vh;
+
+    font-size: 75%;
+
+    padding: 2px 5px 6px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.months-box > div > h3 {
+    margin-top: 0;
+}
