@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.general-div {
+    text-align: center;
+    font-size: 160%;
+}
+
+.upper-box {
+    background-color: #FFC1CB;
+    height: 50vh;
+    color: #251C1E;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-box {
+    background-color: #272727;
+    height: 50vh;
+    color: #C0C0C0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

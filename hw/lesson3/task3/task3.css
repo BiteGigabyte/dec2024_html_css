@@ -1,0 +1,46 @@
+html {
+
+}
+
+body {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+#upper-box {
+    height: 100vh;
+    background-color: #4F6F51;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main-box {
+    height: 100vh;
+    background-color: darkred;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footer-box {
+    height: 100vh;
+    background-color: #216ABB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 50px;
+}
+
+img:hover {
+    cursor: pointer;
+}

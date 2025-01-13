@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en ua">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2</title>
+    <style>
+        body {
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: #028B8B;
+        }
+
+        h2 {
+            background-color: #E9F3F3;
+            margin: 0;
+            border-radius: 10px;
+
+            height: 24%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            row-gap: 8%;
+            padding-top: 6%;
+
+            width: 100%;
+            height: 76%;
+
+            box-sizing: border-box;
+        }
+
+        .general-div {
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+
+            width: 40vw;
+            height: 50vh;
+        }
+
+        label {
+            height: 10%;
+            width: 71.5%;
+        }
+
+       label > #email, label > #password {
+            height: 100%;
+            width: 100%;
+
+           padding: 0;
+        }
+
+       form > span {
+           width: calc(71.5% + 3px);
+
+           display: flex;
+           justify-content: space-between;
+       }
+
+       span > input {
+           width: 26%;
+           border-radius: 5px;
+           border: 2px groove;
+
+       }
+
+    </style>
+</head>
+<body>
+<div class="general-div">
+    <h2>Вхід в особистий кабінет</h2>
+    <form>
+        <label for="email">
+            <input type="text" id="email" name="email" placeholder="Логін або email">
+        </label>
+        <label for="password">
+            <input type="password" id="password" placeholder="Пароль">
+        </label>
+
+        <span>
+            <label for="remember"> Запам'ятати мене
+                <input type="checkbox" id="remember">
+            </label>
+            <input type="button" value="Вхід">
+        </span>
+    </form>
+</div>
+</body>
+</html>
