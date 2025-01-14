@@ -109,7 +109,9 @@ main {
     line-height: 130%; /* 20.8px */
     letter-spacing: 0.8px;
 
-    width: 98.79%;
+    width: 93%; /*98.79%;*/
+
+    flex-shrink: 0;
 }
 
 .upper-box-block > div > button  {
