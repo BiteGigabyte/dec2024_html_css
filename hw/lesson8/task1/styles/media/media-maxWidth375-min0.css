@@ -1,0 +1,20 @@
+@media screen and (max-width: 376px){
+    body {
+        height: auto;
+    }
+
+    main {
+        flex-direction: column;
+
+        margin: 32px 16px 32px 16px;
+        row-gap: 40px;
+    }
+
+    .main-box {
+        width: 100%;
+    }
+
+    .image1, .image2, .image3, .image4, .image5, .image6 {
+        height: 257px;
+    }
+}

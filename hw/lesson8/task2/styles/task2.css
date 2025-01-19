@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    color: #161543;
+
+    font-family: Inter, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+
+    width: 100%;
+}
+
+section {
+    height: 408px;
+    width: 100%;
+    min-width: 1200px;
+
+    display: flex;
+    justify-content: center;
+    column-gap: 32px;
+
+    padding: 64px 48px;
+
+    box-sizing: border-box;
+}
+
+.section-box {
+    width: 18.82vh;
+    height: 280px;
+    min-width: 271px;
+}
+
+
+.section-box > h4 {
+    margin: 20px 0 10px 0;
+}
+
+.section-box > p {
+    color: #7687A1;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.image1, .image2, .image3, .image4 {
+    display: flex;
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 160px;
+}
+
+.image1 {
+    background: url('../images/image1.jpg') lightgray 50% / cover no-repeat;
+}
+
+.image2 {
+    background: url('../images/image2.jpg') lightgray 50% / cover no-repeat;
+}
+
+.image3 {
+    background: url('../images/image3.jpg') lightgray 50% / cover no-repeat;
+}
+
+.image4 {
+    background: url('../images/image4.jpg') lightgray 50% / cover no-repeat;
+}

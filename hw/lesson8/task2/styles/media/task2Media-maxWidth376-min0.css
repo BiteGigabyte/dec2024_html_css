@@ -1,0 +1,35 @@
+@media screen and (max-width: 376px) {
+    body {
+        width: auto;
+    }
+
+    section {
+        flex-wrap: wrap;
+        row-gap: 40px;
+
+        height: auto;
+        width: auto;
+        min-width: auto;
+
+        padding: 32px 16px;
+    }
+
+    .section-box {
+
+        width: auto;
+        height: auto;
+        min-width: auto;
+        min-height: 220px;
+
+    }
+
+    .section-box > h4 {
+        margin: 16px 0 8px 0;
+    }
+
+    .image1, .image2, .image3, .image4 {
+        width: 128px;
+        height: 128px;
+    }
+
+}
